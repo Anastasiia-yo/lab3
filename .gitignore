@@ -1,5 +1,18 @@
+# Віртуальне середовище
+venv/
+.venv/
+
+# Дані
+vhi_data/
 *.csv
+
+# Кеші Python
 __pycache__/
-.env
-*.pyc
-.DS_Store
+*.py[cod]
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
